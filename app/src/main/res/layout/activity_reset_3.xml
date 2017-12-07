@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.amir.balbilliard.Registration_2"
+    android:background="@drawable/wall">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linearLayout2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:background="@drawable/btn2"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/mail"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="0dp"
+        android:singleLine="true"
+        android:hint="Enter Your Email"
+        android:textColorHint="#b93939"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/reset"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Reset Password"
+        android:id="@+id/reset"
+        android:textSize="35dp"
+        android:textColor="#f03838"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
